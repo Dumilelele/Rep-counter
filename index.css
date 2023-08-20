@@ -1,0 +1,86 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #211e1b;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #2d221c;
+  padding: 15px;
+  color: #cbc5be;
+  border-radius: 12px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #2d221c;
+  color: #cbc5be;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#increment-btn:hover {
+  background: #694d42;
+}
+
+#save-btn:hover {
+  background: #9c9690;
+}
+
+#increment-btn {
+  background: #9a7365;
+}
+
+#save-btn {
+  background: #cbc5be;
+}
+
+.container {
+  border: 6px solid #211e1b;
+  border-radius: 5px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=800");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbc5be;
+}
